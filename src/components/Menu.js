@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import DishDetail from "./DishdetailComponent";
+import React from "react";
+
 import {
   Card,
   CardImg,
