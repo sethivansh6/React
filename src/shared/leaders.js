@@ -2,7 +2,8 @@ export const Leaders = [
   {
     id: 0,
     name: "Peter Pan",
-    image: "/assets/images/alberto.png",
+    image:
+      "https://metro.co.uk/wp-content/uploads/2019/04/gunther2-0c0e.png?crop=2px%2C0px%2C847px%2C445px&resize=1200%2C630",
     designation: "Chief Epicurious Officer",
     abbr: "CEO",
     featured: false,
@@ -12,7 +13,8 @@ export const Leaders = [
   {
     id: 1,
     name: "Dhanasekaran Witherspoon",
-    image: "/assets/images/alberto.png",
+    image:
+      "https://metro.co.uk/wp-content/uploads/2019/04/gunther2-0c0e.png?crop=2px%2C0px%2C847px%2C445px&resize=1200%2C630",
     designation: "Chief Food Officer",
     abbr: "CFO",
     featured: false,
@@ -22,7 +24,8 @@ export const Leaders = [
   {
     id: 2,
     name: "Agumbe Tang",
-    image: "/assets/images/alberto.png",
+    image:
+      "https://metro.co.uk/wp-content/uploads/2019/04/gunther2-0c0e.png?crop=2px%2C0px%2C847px%2C445px&resize=1200%2C630",
     designation: "Chief Taste Officer",
     abbr: "CTO",
     featured: false,
@@ -32,7 +35,8 @@ export const Leaders = [
   {
     id: 3,
     name: "Alberto Somayya",
-    image: "/assets/images/alberto.png",
+    image:
+      "https://metro.co.uk/wp-content/uploads/2019/04/gunther2-0c0e.png?crop=2px%2C0px%2C847px%2C445px&resize=1200%2C630",
     designation: "Executive Chef",
     abbr: "EC",
     featured: true,
