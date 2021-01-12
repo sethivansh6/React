@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
 import {
   Card,
   CardBody,
@@ -7,25 +7,26 @@ import {
   CardTitle,
   Breadcrumb,
   BreadcrumbItem,
-} from "reactstrap";
-import { Link } from "react-router-dom";
+} from "reactstrap"
+import { Link } from "react-router-dom"
+import Comment from "./Comment"
 
 class DishDetail extends Component {
   constructor(props) {
-    super(props);
-    this.state = {};
+    super(props)
+    this.state = {}
 
-    console.log("Menu constructor is rendered!");
+    console.log("Menu constructor is rendered!")
   }
   componentDidMount() {
-    console.log("COMPONENTS DID MOUNT IN DISHSETAIL!");
+    console.log("COMPONENTS DID MOUNT IN DISHSETAIL!")
   }
   componentDidUpdate() {
-    console.log("COMPONENT UPDATED!");
+    console.log("COMPONENT UPDATED!")
   }
 
   renderComments(comment) {
-    console.log(comment);
+    console.log(comment)
     if (comment.length > 0) {
       const com = this.props.comments.map((comment) => {
         return (
@@ -38,22 +39,22 @@ class DishDetail extends Component {
             </h5>
             <br></br>
           </ul>
-        );
-      });
+        )
+      })
 
-      return com;
+      return com
     } else {
       return (
         <div>
           <h5>No comments yet</h5>
         </div>
-      );
+      )
     }
   }
 
   render() {
-    console.log("DISHDETAIL COMPONENT MOUNTED AND RENDERED!");
-    console.log(this.props.dish);
+    console.log("DISHDETAIL COMPONENT MOUNTED AND RENDERED!")
+    console.log(this.props.dish)
     return (
       <div className="row">
         <Breadcrumb>
@@ -77,10 +78,11 @@ class DishDetail extends Component {
         </div>
         <div className="col-12 col-md-5 m-1">
           {this.renderComments(this.props.comments)}
+          <Comment />
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default DishDetail;
+export default DishDetail
